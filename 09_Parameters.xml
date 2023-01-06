@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Suite">
+    <test name="Parameters Tests">
+        <parameter name="isim" value="merve"></parameter>
+<classes>
+    <class name="clarusway.tests.Day02_C02_Parameters"></class>
+</classes>
+    </test>
+</suite>

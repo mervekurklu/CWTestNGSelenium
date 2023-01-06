@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Suite">
+    <test name="Parameters Tests">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="aranacakKelime" value="Java"></parameter>
+        <classes>
+            <class name="clarusway.tests.Day02_C04_TestNGParametersSeleniumExample"></class>
+        </classes>
+    </test>
+
+    <test name="Parameters Tests02">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="aranacakKelime" value="Selenium"></parameter>
+    <classes>
+        <class name="clarusway.tests.Day02_C04_TestNGParametersSeleniumExample"></class>
+    </classes>
+    </test>
+</suite>
